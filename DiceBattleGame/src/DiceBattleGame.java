@@ -119,6 +119,7 @@ public class DiceBattleGame {
             return 100 + a[0]; // 豹子點數極大
         } else if (a[0] == a[2] || a[1] == a[3]) { // 三顆一樣 [cite: 352-357]
             return (a[0] == a[2]) ? a[3] : a[0];
+            
         } else if (a[0] == a[1] && a[2] == a[3]) { // 兩對 [cite: 359-365]
             return a[1] + a[3]; // 取兩對點數和
         } else if (a[0] == a[1]) {
